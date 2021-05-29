@@ -12,3 +12,7 @@ var img = document.querySelector("#image2");
 img.addEventListener("mouseover",() => {
     img.setAttribute("src", "images/image1_2.jpg");
 });
+
+img.addEventListener("mouseout",() => {
+    img.setAttribute("src", "images/image1.jpg");
+});
